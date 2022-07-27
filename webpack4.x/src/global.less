@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  animation: spinImg 4s linear infinite;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    width: 600px;
+    animation-play-state: paused;
+  }
+}
+
+@keyframes spinImg {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

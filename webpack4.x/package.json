@@ -1,0 +1,17 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^5.66.0"
+  },
+  "devDependencies": {
+    "less": "^4.1.2",
+    "loader-utils": "2.0.2",
+    "webpack-cli": "^4.9.1"
+  }
+}
